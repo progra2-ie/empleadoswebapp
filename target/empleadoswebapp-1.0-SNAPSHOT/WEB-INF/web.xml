@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>ListarEmpleadosServlet</servlet-name>
+        <servlet-class>cr.ac.ucr.paraiso.progra2.empleadoswebapp.servlets.ListarEmpleadosServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>InsertarEmpleadoServlet</servlet-name>
+        <servlet-class>cr.ac.ucr.paraiso.progra2.empleadoswebapp.servlets.InsertarEmpleadoServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ListarEmpleadosServlet</servlet-name>
+        <url-pattern>/listarEmpleados</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>InsertarEmpleadoServlet</servlet-name>
+        <url-pattern>/insertarEmpleado</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>

@@ -1,0 +1,4 @@
+cr\ac\ucr\paraiso\progra2\empleadoswebapp\domain\Departamento.class
+cr\ac\ucr\paraiso\progra2\empleadoswebapp\domain\Empleado.class
+cr\ac\ucr\paraiso\progra2\empleadoswebapp\servlets\InsertarEmpleadoServlet.class
+cr\ac\ucr\paraiso\progra2\empleadoswebapp\servlets\ListarEmpleadosServlet.class
